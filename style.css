@@ -1,0 +1,62 @@
+:root{--ink:#1f2a24;--muted:#5d6b63;--line:#dfe6e1;--bg:#fbfaf7;--brand:#1f4d3a;--brand2:#c58b3a;--card:#fff}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;color:var(--ink);background:var(--bg);line-height:1.75;font-size:17px}
+a{color:var(--brand)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-weight:800;font-size:22px;letter-spacing:2px;color:var(--brand);text-decoration:none}
+.logo small{display:block;font-size:11px;letter-spacing:1px;color:var(--muted);font-weight:500;margin-top:-4px}
+nav a{margin-left:22px;text-decoration:none;color:var(--ink);font-size:16px}
+nav a.cta{background:var(--brand);color:#fff;padding:8px 16px;border-radius:6px}
+.hero{background:linear-gradient(135deg,#1f4d3a,#2f6a52);color:#fff;padding:88px 0 76px}
+.hero h1{font-size:40px;line-height:1.3;margin:0 0 16px}
+.hero p{font-size:19px;max-width:640px;opacity:.92;margin:0 0 28px}
+.btn{display:inline-block;background:var(--brand2);color:#fff;text-decoration:none;padding:12px 26px;border-radius:6px;font-weight:700;margin-right:10px}
+.btn.ghost{background:transparent;border:1px solid rgba(255,255,255,.7)}
+section{padding:64px 0}
+h2{font-size:28px;margin:0 0 8px;color:var(--brand)}
+.lead{color:var(--muted);margin:0 0 32px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:24px}
+.card h3{margin:0 0 8px;font-size:19px}
+.card p{margin:0;color:var(--muted);font-size:16px}
+.placeholder{border:2px dashed var(--line);border-radius:10px;padding:40px;text-align:center;color:var(--muted);background:#fff}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px}
+.steps li{background:#fff;border:1px solid var(--line);border-radius:10px;padding:18px;position:relative}
+.steps li:before{counter-increment:s;content:counter(s);display:inline-block;width:30px;height:30px;line-height:30px;text-align:center;border-radius:50%;background:var(--brand);color:#fff;font-weight:700;margin-bottom:8px}
+.alt{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+table.info{border-collapse:collapse;width:100%;max-width:640px;background:#fff}
+table.info th,table.info td{border:1px solid var(--line);padding:12px 14px;text-align:left;font-size:16px}
+table.info th{width:140px;background:#f3f6f4;color:var(--muted);font-weight:500}
+.contactbox{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.big{font-size:28px;font-weight:800;color:var(--brand);text-decoration:none}
+footer{background:#18231d;color:#cfd8d2;padding:36px 0;font-size:14px}
+footer a{color:#cfd8d2}
+.cases{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
+.case{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
+.case .pic{aspect-ratio:4/3;background:#eef2ef center/cover no-repeat;position:relative}
+.case .pic.none{display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:15px}
+.case .pic small{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.55);color:#fff;font-size:12px;padding:2px 8px;border-radius:4px}
+.case .body{padding:18px 20px 20px}
+.case .tag{display:inline-block;font-size:13px;padding:2px 10px;border-radius:20px;margin-right:6px;margin-bottom:8px}
+.tag.done{background:#e3efe8;color:var(--brand)}
+.tag.wip{background:#fbefdc;color:#8a5a14}
+.tag.area{background:#f1f3f2;color:var(--muted)}
+.case h3{margin:2px 0 6px;font-size:19px}
+.case p{margin:0 0 10px;color:var(--muted);font-size:15.5px}
+.case ul{margin:0;padding-left:20px;font-size:15px}
+.case ul li{margin:2px 0}
+.note{font-size:13.5px;color:var(--muted);margin-top:18px}
+.more{margin-top:24px}
+@media (max-width:640px){
+  header .wrap{height:auto;flex-wrap:wrap;padding-top:8px;padding-bottom:8px;gap:6px}
+  nav{width:100%;display:flex;justify-content:space-between;align-items:center}
+  nav a{margin-left:0;font-size:14.5px;white-space:nowrap}
+  nav a.cta{padding:5px 10px}
+  .logo small{display:inline;margin-left:8px}
+  .hero{padding:56px 0}
+  .hero h1{font-size:28px}
+  .logo{font-size:18px}
+}
