@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="Noto Sans TC,PingFang TC,Microsoft JhengHei,sans-serif">
+<rect width="800" height="450" fill="#f4f1ea"/>
+<g stroke="#1f2a24" stroke-width="2" fill="none">
+<line x1="40" y1="390" x2="760" y2="390"/>
+<rect x="70" y="150" width="190" height="240" fill="#e3e7e2"/>
+<rect x="540" y="150" width="190" height="240" fill="#e3e7e2"/>
+<line x1="70" y1="230" x2="260" y2="230"/><line x1="70" y1="310" x2="260" y2="310"/>
+<line x1="540" y1="230" x2="730" y2="230"/><line x1="540" y1="310" x2="730" y2="310"/>
+</g>
+<g fill="none" stroke="#1f4d3a" stroke-width="3">
+<rect x="275" y="70" width="250" height="320" fill="#ffffff"/>
+<line x1="275" y1="150" x2="525" y2="150"/><line x1="275" y1="230" x2="525" y2="230"/><line x1="275" y1="310" x2="525" y2="310"/>
+<rect x="290" y="80" width="20" height="310" fill="#1f4d3a"/><rect x="490" y="80" width="20" height="310" fill="#1f4d3a"/>
+</g>
+<rect x="260" y="150" width="15" height="240" fill="#c58b3a"/><rect x="525" y="150" width="15" height="240" fill="#c58b3a"/>
+<g fill="#1f2a24" font-size="20" text-anchor="middle">
+<text x="165" y="135">左鄰（保留）</text><text x="635" y="135">右鄰（保留）</text>
+<text x="400" y="58" fill="#1f4d3a" font-weight="700">新建：自己這一戶</text>
+<text x="400" y="430" font-size="16" fill="#5d6b63">示意圖，實際依建築師與結構技師設計</text>
+</g>
+<g font-size="16" fill="#8a5a14">
+<line x1="267" y1="270" x2="200" y2="420" stroke="#8a5a14" stroke-width="1.5"/>
+<text x="40" y="420" text-anchor="start">共同壁與接縫：防水、填縫</text>
+<text x="400" y="265" fill="#1f4d3a" text-anchor="middle">新的柱、梁</text><text x="400" y="287" fill="#1f4d3a" text-anchor="middle">自成一體</text>
+</g>
+</svg>

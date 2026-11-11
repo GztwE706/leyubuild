@@ -53,7 +53,21 @@ footer a{color:#cfd8d2}
 .case ul li{margin:2px 0}
 .note{font-size:13.5px;color:var(--muted);margin-top:18px}
 .more{margin-top:24px}
+.article{max-width:760px}
+.article h1{font-size:30px;line-height:1.4;color:var(--brand);margin:6px 0 18px}
+.article h2{font-size:22px;margin:30px 0 8px}
+.article figure{margin:18px 0}
+.article figure img{width:100%;height:auto;border-radius:8px;border:1px solid var(--line);display:block}
+.article figcaption{font-size:14px;color:var(--muted);margin-top:6px}
+.article ul{padding-left:22px}
+.answer{background:#e9f1ec;border-left:4px solid var(--brand);padding:12px 16px;border-radius:4px;font-weight:600}
+.crumb{font-size:14px;margin:0}
+.ctabox{background:#fff;border:1px solid var(--line);border-radius:10px;padding:20px;margin-top:30px}
+.case h3 a{color:var(--ink);text-decoration:none}
+a.pic{display:block}
 @media (max-width:640px){
+  .article h1{font-size:24px}
+  nav a{font-size:13.5px}
   header .wrap{height:auto;flex-wrap:wrap;padding-top:8px;padding-bottom:8px;gap:6px}
   nav{width:100%;display:flex;justify-content:space-between;align-items:center}
   nav a{margin-left:0;font-size:14.5px;white-space:nowrap}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="Noto Sans TC,PingFang TC,Microsoft JhengHei,sans-serif">
+<rect width="800" height="450" fill="#f4f1ea"/>
+<rect x="80" y="200" width="640" height="70" fill="#d9ddd7" stroke="#1f2a24" stroke-width="2"/>
+<g stroke="#1f4d3a" stroke-width="4"><line x1="90" y1="218" x2="710" y2="218"/><line x1="90" y1="252" x2="710" y2="252"/></g>
+<g fill="#1f4d3a"><circle cx="140" cy="218" r="6"/><circle cx="220" cy="218" r="6"/><circle cx="300" cy="218" r="6"/><circle cx="380" cy="218" r="6"/><circle cx="460" cy="218" r="6"/><circle cx="540" cy="218" r="6"/><circle cx="620" cy="218" r="6"/><circle cx="140" cy="252" r="6"/><circle cx="220" cy="252" r="6"/><circle cx="300" cy="252" r="6"/><circle cx="380" cy="252" r="6"/><circle cx="460" cy="252" r="6"/><circle cx="540" cy="252" r="6"/><circle cx="620" cy="252" r="6"/></g>
+<rect x="400" y="230" width="160" height="12" rx="6" fill="#c58b3a"/>
+<rect x="80" y="270" width="640" height="10" fill="#8f7a5a"/>
+<g stroke="#5d6b63" stroke-width="3"><line x1="140" y1="280" x2="140" y2="400"/><line x1="300" y1="280" x2="300" y2="400"/><line x1="460" y1="280" x2="460" y2="400"/><line x1="620" y1="280" x2="620" y2="400"/></g>
+<line x1="60" y1="400" x2="740" y2="400" stroke="#1f2a24" stroke-width="2"/>
+<g font-size="18" fill="#1f2a24">
+<text x="80" y="60" font-size="24" font-weight="700" fill="#1f4d3a">樓板剖面：灌漿前要看的5件事</text>
+<text x="80" y="110">① 鋼筋：支數、粗細、間距照圖</text>
+<text x="80" y="140">② 保護層：鋼筋和模板之間留距離</text>
+<text x="430" y="110">③ 管線：水電管先埋好</text>
+<text x="430" y="140">④ 模板支撐：撐得住才能灌</text>
+<text x="80" y="170">⑤ 勘驗：建築師、技師到場查驗</text>
+</g>
+<g font-size="15" fill="#8a5a14"><text x="570" y="240">預埋管線</text><text x="640" y="296" fill="#5d6b63">模板</text><text x="640" y="380" fill="#5d6b63">支撐</text></g>
+<text x="400" y="435" font-size="15" fill="#5d6b63" text-anchor="middle" font-family="Noto Sans TC,sans-serif">示意圖，實際依結構設計</text>
+</svg>

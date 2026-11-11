@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="Noto Sans TC,PingFang TC,Microsoft JhengHei,sans-serif">
+<rect width="800" height="450" fill="#f4f1ea"/>
+<rect x="40" y="150" width="720" height="270" fill="#cdb995"/>
+<rect x="230" y="150" width="340" height="230" fill="#f4f1ea"/>
+<g stroke="#1f2a24" stroke-width="2" fill="#e3e7e2"><rect x="60" y="60" width="150" height="90"/><rect x="590" y="60" width="150" height="90"/></g>
+<g fill="#5d6b63"><rect x="222" y="150" width="8" height="240"/><rect x="570" y="150" width="8" height="240"/></g>
+<g fill="#c0392b"><rect x="230" y="200" width="340" height="12"/><rect x="230" y="290" width="340" height="12"/></g>
+<g fill="#e0b52b"><rect x="395" y="150" width="10" height="230"/></g>
+<g stroke="#1f4d3a" stroke-width="3" fill="none" marker-end="url(#a)"><line x1="150" y1="260" x2="215" y2="260"/><line x1="650" y1="260" x2="585" y2="260"/></g>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1f4d3a"/></marker></defs>
+<g font-size="18" fill="#1f2a24" text-anchor="middle">
+<text x="135" y="50">鄰房</text><text x="665" y="50">鄰房</text>
+<text x="400" y="40" font-size="24" font-weight="700" fill="#1f4d3a">地下室開挖：擋土＋支撐</text>
+<text x="400" y="190" font-size="16">水平鋼構支撐</text>
+<text x="120" y="300" font-size="16">土壓往內推</text>
+<text x="680" y="300" font-size="16">土壓往內推</text>
+<text x="400" y="440" font-size="15" fill="#5d6b63">示意圖，實際依結構技師設計與地質條件</text>
+</g>
+</svg>
