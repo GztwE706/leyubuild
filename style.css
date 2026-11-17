@@ -129,12 +129,12 @@ nav a.cta:hover{background:var(--ink);color:var(--bg)}
 .btn.more{background:transparent;color:var(--ink);padding:0 0 4px;border:0;border-bottom:1px solid var(--ink);letter-spacing:3px;margin-top:48px}
 .btn.more:after{content:"  →"}
 /* 首頁 hero：大字在上、大圖在下 */
-.hero.studio{background:var(--bg);color:var(--ink);padding:110px 0 0}
+.hero.studio{background:var(--bg);color:var(--ink);padding:90px 0 110px}
 .hero.studio .kicker{display:block;font-size:11.5px;letter-spacing:6px;color:var(--muted);margin-bottom:34px}
 .hero.studio h1{font-size:64px;line-height:1.35;letter-spacing:6px;margin:0 0 36px;font-weight:600}
-.hero.studio .row{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end;margin-bottom:64px}
+.hero.studio .row{display:grid;grid-template-columns:1.05fr .95fr;gap:80px;align-items:center}
 .hero.studio p{font-size:16.5px;color:var(--muted);max-width:none;opacity:1;margin:0 0 26px}
-.hero.studio .img{height:72vh;min-height:420px;background:#ccc center/cover no-repeat;position:relative}
+.hero.studio .img{aspect-ratio:4/5;max-height:80vh;width:100%;background:#ccc center/cover no-repeat;position:relative}
 .hero.studio .img small{position:absolute;right:16px;bottom:12px;font-size:11.5px;letter-spacing:2px;color:rgba(255,255,255,.85)}
 .hero:not(.studio){background:var(--ink);color:var(--bg)}
 /* 數字列：細線分隔 */
@@ -204,7 +204,7 @@ footer{background:var(--bg);color:var(--muted);border-top:1px solid var(--ink);p
 footer a{color:var(--muted)}
 footer .flogo{font-family:var(--serif);font-size:20px;letter-spacing:8px;color:var(--ink);display:block;margin-bottom:14px}
 @media (max-width:900px){
-  .hero.studio .row{grid-template-columns:1fr;gap:10px}
+  .hero.studio .row{grid-template-columns:1fr;gap:48px}
   .steps{grid-template-columns:repeat(3,1fr);row-gap:28px}
   .card{grid-template-columns:50px 1fr;gap:10px 20px}
   .card p{grid-column:2}
@@ -218,7 +218,8 @@ footer .flogo{font-family:var(--serif);font-size:20px;letter-spacing:8px;color:v
   nav a.cta{padding:4px 10px}
   .hero.studio{padding-top:64px}
   .hero.studio h1{font-size:36px;letter-spacing:3px}
-  .hero.studio .img{height:56vh;min-height:300px}
+  .hero.studio{padding:56px 0 76px}
+  .hero.studio .img{max-height:none}
   h2{font-size:26px}
   .stats .wrap{grid-template-columns:1fr}
   .stats div.s,.stats div.s+div.s{padding:26px 0;border-left:0;border-top:1px solid var(--line)}
@@ -229,3 +230,25 @@ footer .flogo{font-family:var(--serif);font-size:20px;letter-spacing:8px;color:v
   .ctaband h2{font-size:28px}
   .fab{right:14px;bottom:14px;padding:10px 14px;font-size:12px}
 }
+
+/* 1151117-3 about 與案場頁 */
+.split{display:grid;grid-template-columns:1.1fr .9fr;gap:80px;align-items:center}
+.split .pic,.casehead .pic{aspect-ratio:4/5;background:#ddd center/cover no-repeat;position:relative}
+.split .pic small{position:absolute;right:14px;bottom:10px;font-size:11px;letter-spacing:2px;color:rgba(255,255,255,.88)}
+.crumb{font-size:12.5px;letter-spacing:2px;color:var(--muted);margin-bottom:30px}
+.crumb a{color:var(--muted)}
+.casehead{grid-template-columns:.9fr 1.1fr;gap:72px;align-items:center;margin-top:0}
+.casehead h1{font-size:40px;line-height:1.45;letter-spacing:2px;margin:14px 0 22px}
+.casehead p{font-size:16px}
+.casehead ul{list-style:none;padding:0;margin:26px 0 0;border-top:1px solid var(--ink)}
+.casehead ul li{padding:14px 0;border-bottom:1px solid var(--line);font-size:15px}
+.timeline{border-left:0;margin-left:0;border-top:1px solid var(--ink)}
+.timeline li{padding:28px 0;border-bottom:1px solid var(--line);grid-template-columns:140px 1fr;gap:30px}
+.timeline li:before{display:none}
+.timeline .when{font-family:var(--serif);font-weight:600;color:var(--ink);font-size:18px;letter-spacing:2px}
+.timeline h3{font-size:18px;letter-spacing:1px;margin-bottom:14px}
+.timeline .shots{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.timeline .shots img{border-radius:0;border:0;aspect-ratio:4/3}
+.ctaband .more a{color:rgba(245,243,238,.7)}
+@media (max-width:900px){.split,.casehead{grid-template-columns:1fr;gap:40px}}
+@media (max-width:640px){.casehead h1{font-size:28px}.timeline li{grid-template-columns:1fr;gap:6px}}
