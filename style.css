@@ -40,6 +40,7 @@ footer a{color:#cfd8d2}
 .cases{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
 .case{background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;display:flex;flex-direction:column}
 .case .pic{aspect-ratio:4/3;background:#eef2ef center/cover no-repeat;position:relative}
+.case .pic.sub{aspect-ratio:16/9;border-top:3px solid #fff}
 .case .pic.none{display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:15px}
 .case .pic small{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.55);color:#fff;font-size:12px;padding:2px 8px;border-radius:4px}
 .case .body{padding:18px 20px 20px}
