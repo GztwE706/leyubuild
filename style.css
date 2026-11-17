@@ -252,3 +252,43 @@ footer .flogo{font-family:var(--serif);font-size:20px;letter-spacing:8px;color:v
 .ctaband .more a{color:rgba(245,243,238,.7)}
 @media (max-width:900px){.split,.casehead{grid-template-columns:1fr;gap:40px}}
 @media (max-width:640px){.casehead h1{font-size:28px}.timeline li{grid-template-columns:1fr;gap:6px}}
+/* 1151117-4 加一點顏色：森林綠＋黃銅 */
+:root{--green:#25402f;--green2:#2f5240;--brass:#b08a4f;--sand:#e9e1d2}
+.eyebrow{color:var(--brass)}
+.eyebrow:before{background:var(--brass)}
+h2:after{content:"";display:block;width:36px;height:2px;background:var(--brass);margin-top:16px}
+.ctaband h2:after,.hero h1:after{display:none}
+.btn,.btn.line{background:var(--green);border-color:var(--green);color:#fff}
+.btn:hover,.btn.line:hover{background:transparent;color:var(--green)}
+.btn.ghost{border-color:var(--green);color:var(--green)}
+.btn.ghost:hover{background:var(--green);color:#fff}
+.btn.more{background:transparent;color:var(--green);border-bottom-color:var(--brass)}
+nav a.cta{border-color:var(--green);color:var(--green)}
+nav a.cta:hover{background:var(--green);color:#fff}
+.hero.studio .kicker{color:var(--brass)}
+.hero.studio .img{box-shadow:28px 28px 0 var(--sand)}
+.hero.studio .img:after{content:"";position:absolute;left:-14px;top:-14px;width:72px;height:72px;border-left:2px solid var(--brass);border-top:2px solid var(--brass)}
+.stats{background:var(--green)}
+.stats .wrap{border-bottom:0}
+.stats b{color:#e8cf9f}
+.stats span{color:rgba(255,255,255,.75)}
+.stats div.s+div.s{border-left-color:rgba(255,255,255,.15)}
+.card:before,.steps li:before{color:var(--brass)}
+.grid{border-top-color:var(--green)}
+.steps{border-top-color:var(--green)}
+.alt{background:var(--sand)}
+.case .tag.wip:before{color:var(--brass)}
+.case .tag.done:before{color:var(--green2)}
+.case .go{color:var(--green);border-bottom-color:var(--brass)}
+.ctaband{background:var(--green)}
+.ctaband .eyebrow{color:#e8cf9f!important}
+.ctaband .eyebrow:before{background:#e8cf9f}
+.ctaband .btn,.hero:not(.studio) .btn{background:#f5f3ee;color:var(--green);border-color:#f5f3ee}
+.ctaband .btn:hover{background:transparent;color:#f5f3ee}
+.timeline,.casehead ul,.contactbox .card{border-top-color:var(--green)}
+.timeline .when{color:var(--brass)}
+.fab{background:var(--green);border-color:var(--green)}
+footer{border-top:3px solid var(--green)}
+.split .pic,.casehead .pic{box-shadow:22px 22px 0 var(--sand)}
+.alt .split .pic,.alt .casehead .pic{box-shadow:22px 22px 0 #f5f3ee}
+@media (max-width:640px){.hero.studio .img{box-shadow:14px 14px 0 var(--sand)}.hero.studio .img:after{left:-8px;top:-8px;width:44px;height:44px}.stats div.s,.stats div.s+div.s{border-top-color:rgba(255,255,255,.15)}}
